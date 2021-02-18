@@ -1,0 +1,62 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("components/banner.css");
+@import url("components/button.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  text-shadow: 1px 1px 1px;
+  color: black;
+
+}
+
+h1 {
+	margin-top: 80px;
+}
+
+h1, h1, h3 {
+  font-family: Poppins;
+  text-align: center;
+}
+
+h3 {
+	font-size: xx-large;
+	padding: 0 auto;
+	color: red;
+	margin-top: 10px;
+}
+
+h2 {
+	margin-bottom: 0;
+	margin-top: 50px;
+}
+
+.banner p {
+	font-family: 'Sacramento', cursive;
+	font-size: xx-large;
+	margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* div { */
+    /* display: block; */
+/* } */
+
+.navbar {
+	display: flex;
+  	justify-content: space-between;
+	align-items: flex-start;
+	text-shadow: 1px 1px 1px;
+}
+
+/* Custom design below! */
+
